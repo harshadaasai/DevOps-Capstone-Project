@@ -5,7 +5,7 @@ on:
 jobs:
   cicd:
     env:
-      appName: docker-image
+    appName: docker-image
       runs-on: ubuntu-latest
       steps:
         - name: Checkout the code
