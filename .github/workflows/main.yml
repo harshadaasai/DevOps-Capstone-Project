@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
-        uses: actions/checkout@v3  i.e. actions are vailable on github for every task
+        uses: actions/checkout@v4  
       - name: Set up Java JDK 11
         uses: actions/setup-java@v3
         with:
